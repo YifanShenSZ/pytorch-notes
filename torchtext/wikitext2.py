@@ -46,7 +46,7 @@ for i in range(nwords_unique):
 # print(index_385, sorted_frequencies[index_385])
 # print(index_857, sorted_frequencies[index_857])
 
-with open("sequence_lengthes.txt", 'w') as f:
+with open("sequence_lengths.txt", 'w') as f:
     count = 1
     for i in range(words.numel()):
         word = words[i]
